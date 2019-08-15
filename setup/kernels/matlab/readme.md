@@ -1,1 +1,3 @@
 Testing the Matlab kernel within Jupyter notebook. Instructions here: https://walczak.org/2017/07/using-matlab-in-jupyter-notebooks-on-windows/
+
+Edit (Aug 15 2019): Installed new version of python which is not yet supported by Matlab, leading to isses with the matlab engine for python (https://www.mathworks.com/matlabcentral/answers/447200-api-for-python-3-7). Installing the Matlab kernel for Jupyter Notebook is not worth wasting time over, especially since Numpy, Scipy, and Matplotlib are a strong alternative. I still have Matlab installed locally just in case it is required.
